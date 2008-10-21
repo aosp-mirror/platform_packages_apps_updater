@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+  <!-- PesterDialog is identical to Theme.Dialog except that the text
+       in the title is reduced from 18sp to 17sp, so that all of "A
+       system update is available" fits. -->
+
+  <style name="PesterDialog" parent="@android:Theme.Dialog">
+    <item name="android:windowTitleStyle">@style/PesterWindowTitle</item>
+  </style>
+
+  <style name="PesterWindowTitle" parent="@android:style/DialogWindowTitle">
+    <item name="android:textAppearance">@style/TextAppearance.PesterWindowTitle</item>
+  </style>
+
+  <style name="TextAppearance.PesterWindowTitle"
+	 parent="@android:style/TextAppearance.DialogWindowTitle">
+    <item name="android:textSize">17sp</item>
+  </style>
+</resources>
+

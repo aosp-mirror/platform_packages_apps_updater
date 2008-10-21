@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Aktualisierung</string>
+  <string name="later_button">Später aktualisieren</string>
+  <string name="message">
+        Während das Telefon die Aktualisierung durchführt, können Sie keine Notrufe absetzen. Das Telefon wird während der Aktualisierung neu gestartet.
+    </string>
+  <string name="now_button">Jetzt aktualisieren</string>
+  <string name="pester_label">Ein System-Update steht zur Verfügung</string>
+</resources>

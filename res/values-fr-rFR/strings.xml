@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_name">Mise à jour</string>
+  <string name="later_button">Mettre à jour plus tard</string>
+  <string name="message">
+        Quand votre téléphone se met à jour, vous ne pouvez pas faire d\'appel d\'urgence. Votre téléphone redémarrera pendant la mise à jour.  
+    </string>
+  <string name="now_button">Mettre à jour maintenant</string>
+  <string name="pester_label">Une mise à jour système est disponible</string>
+</resources>
