@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="later_button">Update later</string>
-  <string name="message">
-        While your phone is updating, you cannot make emergency calls. Your phone will restart during update.  
-    </string>
-  <string name="now_button">Update now</string>
-  <string name="pester_label">A system update is available</string>
+    <!-- no translation found for app_name (2536904272647090578) -->
+    <skip />
+    <string name="pester_label">"A system update is available"</string>
+    <string name="message">"While your phone is updating, you cannot make emergency calls. Your phone will restart during update."</string>
+    <string name="now_button">"Update now"</string>
+    <string name="later_button">"Update later"</string>
 </resources>

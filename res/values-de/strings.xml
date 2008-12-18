@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Google Updater"</string>
+    <string name="pester_label">"Es ist ein System-Update verfügbar."</string>
+    <string name="message">"Während des Updates können Sie mit Ihrem Telefon keine Notrufe tätigen. Ihr Telefon wird beim Update neu gestartet."</string>
+    <string name="now_button">"Jetzt aktualisieren"</string>
+    <string name="later_button">"Später aktualisieren"</string>
+</resources>

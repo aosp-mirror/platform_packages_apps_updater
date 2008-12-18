@@ -16,13 +16,18 @@
 -->
 
 <resources>
+    <!-- Name of the Application -->
     <string name="app_name">Updater</string>
+    <!-- Dialog box which appears that tells the user that there is a new system update available for install-->
     <string name="pester_label">A system update is available</string>
+    <!-- Dialog which appears to tell the user, that during the update, they cannot make emergency calls-->
     <string name="message">
         While your phone is updating, you cannot make emergency calls. Your phone will restart during update.  
     </string>
 
+    <!-- Button Label for option to let user indicate to start the update process-->
     <string name="now_button">Update now</string>
 
+    <!-- Button Label for option to let user indicate to delay the update process-->
     <string name="later_button">Update later</string>
 </resources>

@@ -21,13 +21,11 @@ import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.provider.Checkin;
-import com.android.internal.telephony.Phone;
-import com.android.internal.telephony.TelephonyIntents;
+import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -53,22 +51,8 @@ public class PesterActivity extends Activity {
 
     /** @return whether a call is in progress (or the phone is ringing) */
     private boolean inPhoneCall() {
-        IntentFilter filter = new IntentFilter();
-        filter.addAction(TelephonyIntents.ACTION_PHONE_STATE_CHANGED);
-        Intent intent = registerReceiver(null, filter);
-        if (intent == null) return false;
-
-        String state = intent.getStringExtra(Phone.STATE_KEY);
-        if (state == null) return false;
-
-        try {
-            Phone.State phoneState = Phone.State.valueOf(state);
-            if (phoneState != Phone.State.IDLE) return true;
-        } catch (IllegalArgumentException e) {
-            // returned state isn't a valid enum value.
-            Log.e(TAG, "parsing phone state:", e);
-        }
-        return false;
+        TelephonyManager tm = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
+        return (tm.getCallState() != TelephonyManager.CALL_STATE_IDLE);
     }
 
     /**

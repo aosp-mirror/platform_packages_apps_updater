@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"アップデータ"</string>
+    <string name="pester_label">"システムアップデートが利用可能です"</string>
+    <string name="message">"更新中は緊急通話をかけられません。また、更新中に本体は再起動されます。"</string>
+    <string name="now_button">"今すぐ更新"</string>
+    <string name="later_button">"後で更新"</string>
+</resources>
