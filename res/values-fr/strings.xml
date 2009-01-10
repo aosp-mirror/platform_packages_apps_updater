@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Outil de mise à jour Google"</string>
+    <string name="pester_label">"Une mise à jour système est disponible."</string>
+    <string name="message">"Pendant la mise à jour de votre téléphone, vous ne pouvez émettre aucun appel d\'urgence. Votre téléphone redémarrera pendant la mise à jour."</string>
+    <string name="now_button">"Mettre à jour maintenant"</string>
+    <string name="later_button">"Mettre à jour ultérieurement"</string>
+</resources>
