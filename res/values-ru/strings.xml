@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Программа обновлений"</string>
+    <string name="pester_label">"Доступно системное обновление"</string>
+    <string name="message">"При обновлении телефона выполнение экстренных вызовов невозможно. В ходе обновления телефон перезагрузится."</string>
+    <string name="now_button">"Обновить"</string>
+    <string name="later_button">"Обновить позже"</string>
+</resources>

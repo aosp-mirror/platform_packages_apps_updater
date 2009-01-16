@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Updater"</string>
+    <string name="pester_label">"Aktualizace systému je k dispozici"</string>
+    <string name="message">"V průběhu aktualizace vašeho telefonu nelze provádět tísňová volání. Během aktualizace se telefon restartuje."</string>
+    <string name="now_button">"Aktualizovat nyní"</string>
+    <string name="later_button">"Aktualizovat později"</string>
+</resources>

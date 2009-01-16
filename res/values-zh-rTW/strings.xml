@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"軟體更新"</string>
+    <string name="pester_label">"現有系統更新可供安裝"</string>
+    <string name="message">"當您的手機在更新時，將無法撥出緊急電話。更新過程中，手機會重新開機。"</string>
+    <string name="now_button">"現在更新"</string>
+    <string name="later_button">"稍後更新"</string>
+</resources>
